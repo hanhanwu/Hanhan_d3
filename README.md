@@ -1,4 +1,4 @@
-# Hanhan_Data_Visualization
+# Hanhan_d3
 data visualization
 
 * Using D3 to create animated visualization
