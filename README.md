@@ -7,3 +7,32 @@ data visualization
   3. transition.html - At the beginning, the text is on the left side and it is in black color. After waiting for 1 sec, it moves from left to right by 100px, where the duration time is 1 sec. Once it arrives at the right side, the color of each character is changed from black to its rainbow color.
   4. selection_exit.html - At the beginning, there is no text. Every 0.5 sec, there is a new character (including space) showing up from left to right. Once all the characters show up, each character will disappear one by one from right to left (every 0.5sec).
   5. selection_on.html - At the beginning, all characters are in black color. Once you move the mouse over each character, the color of the character changes from black to its original color. Once you move the mouse out the character, the color changes to black after waiting for 1 sec.
+
+*************************************************************************************************
+
+Time to practice more in d3 and Javascript. Somtimes, you still need to write Javascript as a data scientist, either for data visualization purpose, or to do more experiments when developers are busy with other work.
+
+IDE
+* Now I use <b>Visual Studio Code</b>. With this tool, I even no need to install or run any server
+  * Use the method [here][1], so that when you press `Cmd+Shift+B`, the website will be launched to chrome directly
+  * BTW, I don't like Sublime Text, I tried 1 hour, guidance on its manual never worked for me.
+
+
+*************************************************************************************************
+
+RESOURCES
+
+* D3 for Beginners: https://www.analyticsvidhya.com/blog/2017/07/beginner-guide-build-data-visualisations-web-d3-js/
+  * If you want to use Python to launch server (with Visual Studio Code, no need this)
+    * Python2.*: type `python -m SimpleHTTPServer` in your terminal
+    * Python3.*: type `python -m http.server` in your terminal
+    * Then just go to http://0.0.0.0:8000/ to open your .html page
+  * Author's original code: https://github.com/hanhanwu/d3js/tree/master/AV_D3_Intro
+  
+* Jaw drop D3: https://www.analyticsvidhya.com/blog/2017/08/visualizations-with-d3-js/?utm_source=feedburner&utm_medium=email&utm_campaign=Feed%3A+AnalyticsVidhya+%28Analytics+Vidhya%29
+  * Jaw didn't drop, but it's am amazing tutorial
+
+*************************************************************************************************
+  
+  
+[1]:https://www.webucator.com/blog/2016/06/launch-files-browser-visual-studio-code/
