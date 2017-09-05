@@ -28,9 +28,22 @@ RESOURCES
     * Python3.*: type `python -m http.server` in your terminal
     * Then just go to http://0.0.0.0:8000/ to open your .html page
   * Author's original code: https://github.com/hanhanwu/d3js/tree/master/AV_D3_Intro
+  * SVG or Scalable Vector Graphics is a format used to draw xml based graphics and animations. <b>SVG graphics do NOT lose any quality if they are zoomed or resized.</b>
+    * The origin(0,0) in SVG is at the <b>“top-left”</b>
+  * `d3` is a global object that we can use it to select web elements, such as `d3.select("body").append("p").text("Baby Emmanuel!")`
+    
+* <b>D3 Original GitHub</b>: https://github.com/d3/d3
+  
   
 * Jaw drop D3: https://www.analyticsvidhya.com/blog/2017/08/visualizations-with-d3-js/?utm_source=feedburner&utm_medium=email&utm_campaign=Feed%3A+AnalyticsVidhya+%28Analytics+Vidhya%29
   * Jaw didn't drop, but it's am amazing tutorial
+
+*************************************************************************************************
+
+PRACTICE
+
+* Beginner Code: https://github.com/hanhanwu/Hanhan_d3/tree/master/beginner
+
 
 *************************************************************************************************
   
