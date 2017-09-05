@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <title>Bar Chart About Emmanuel</title>
+        <script src="https://d3js.org/d3.v3.js"></script>
+	</head>
+	<body>
+        <script type="text/javascript">
+            var data_values = [9, 7, 10, 9, 5, 3];  // attentive, focused, adorable, kind, little temper, impatient
+
+            var svg = d3.select("body").append("svg").attr({
+                "width": 900,
+                "height": 700
+            });
+
+            var bars = svg.selectAll("rect").data(data_values).enter()
+                          .append("rect").attr("width", "25").attr("height", function(d) {
+                              return d*5;
+                          });
+
+            bars.attr("x", function(d, i) {
+                return i*30;  // this decide the gap between bars
+                })
+                .attr("y", function(d) {
+                    return 410 - d*5;
+                })
+
+            bars.attr("fill", "green");
+
+            var max = d3.max(data_values);
+            var min = d3.min(data_values);
+
+            bars.filter(function(d){
+                return d==max;
+            }).attr("fill", "deeppink");
+
+            bars.filter(function(d){
+                return d==min;
+            }).attr("fill", "purple");
+        </script>
+	</body>
+</html>
