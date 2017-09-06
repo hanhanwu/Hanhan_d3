@@ -17,4 +17,8 @@ Beginner of d3 and JS
     * d3.min.js: https://github.com/hanhanwu/Hanhan_d3/blob/master/beginner/d3.min.js
     * data.tsv: https://github.com/hanhanwu/Hanhan_d3/blob/master/beginner/data.tsv
       * The data here has to be very long, <b>wait for me to add more data tomorrow...</b>
+  * NOTE: to run the code, you need to set up server first. Check <b>IDE & Server</b> [here][1]
+  
+  
+  [1]:https://github.com/hanhanwu/Hanhan_d3/blob/master/README.md
     
