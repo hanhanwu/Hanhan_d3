@@ -12,7 +12,7 @@ data visualization
 
 Time to practice more in d3 and Javascript. Somtimes, you still need to write Javascript as a data scientist, either for data visualization purpose, or to do more experiments when developers are busy with other work.
 
-IDE & Server
+<b>IDE & Server</b>
 * Now I use <b>Visual Studio Code</b>. With this tool, I even no need to install or run any server
   * Use the method [here][1], so that when you press `Cmd+Shift+B`, the website will be launched to chrome directly
   * BTW, I don't like Sublime Text, I tried 1 hour, guidance on its manual never worked for me.
