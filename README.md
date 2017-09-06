@@ -12,10 +12,15 @@ data visualization
 
 Time to practice more in d3 and Javascript. Somtimes, you still need to write Javascript as a data scientist, either for data visualization purpose, or to do more experiments when developers are busy with other work.
 
-IDE
+IDE & Server
 * Now I use <b>Visual Studio Code</b>. With this tool, I even no need to install or run any server
   * Use the method [here][1], so that when you press `Cmd+Shift+B`, the website will be launched to chrome directly
   * BTW, I don't like Sublime Text, I tried 1 hour, guidance on its manual never worked for me.
+* But!! When you are loading local data, you may only get this error, "Cross origin requests are only supported for HTTP". The solution is to start your local server and run the website
+  * `cd` to the directory where you are writing your .html page
+  * Python2.*: type `python -m SimpleHTTPServer` in your terminal
+  * Python3.*: type `python -m http.server` in your terminal
+  * Then just go to http://0.0.0.0:8000/ to open your .html page
 
 
 *************************************************************************************************
@@ -24,6 +29,7 @@ RESOURCES
 
 * D3 for Beginners: https://www.analyticsvidhya.com/blog/2017/07/beginner-guide-build-data-visualisations-web-d3-js/
   * If you want to use Python to launch server (with Visual Studio Code, no need this)
+    * `cd` to the directory where you are writing your .html page
     * Python2.*: type `python -m SimpleHTTPServer` in your terminal
     * Python3.*: type `python -m http.server` in your terminal
     * Then just go to http://0.0.0.0:8000/ to open your .html page
@@ -37,6 +43,7 @@ RESOURCES
   
 * Jaw drop D3: https://www.analyticsvidhya.com/blog/2017/08/visualizations-with-d3-js/?utm_source=feedburner&utm_medium=email&utm_campaign=Feed%3A+AnalyticsVidhya+%28Analytics+Vidhya%29
   * Jaw didn't drop, but it's am amazing tutorial
+  * .tsv is a tab seperated data file
 
 *************************************************************************************************
 
