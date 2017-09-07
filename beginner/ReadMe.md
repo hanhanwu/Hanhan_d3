@@ -19,6 +19,7 @@ Beginner of d3 and JS
       * The data here has to be very long, <b>wait for me to add more data tomorrow...</b>
   * NOTE: to run the code, you need to set up server first. Check <b>IDE & Server</b> [here][1]
   * Here is the Animated Line Chart created (I added more data in Baby Emmauel's original data, otherwise, not enough)
+  
   ![Animated Line Chart](https://github.com/hanhanwu/Hanhan_d3/blob/master/beginner/animated_line_chart.gif)
   
   
