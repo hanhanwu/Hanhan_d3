@@ -43,7 +43,10 @@ Beginner of d3 and JS
     * word.tsv: https://github.com/hanhanwu/Hanhan_d3/blob/master/beginner/data.tsv
     * Animated bar chart html: https://github.com/hanhanwu/Hanhan_d3/blob/master/beginner/animated_bar_chart.html
     * Static bar chart html: https://github.com/hanhanwu/Hanhan_d3/blob/master/beginner/static_bar_chart.html
+  * d3 notes
+    * In this code (animated bar chart), the colors are using `category10`, [here are more color choices in d3][2]
   
   
   [1]:https://github.com/hanhanwu/Hanhan_d3/blob/master/README.md
+  [2]:https://github.com/d3/d3-3.x-api-reference/blob/master/Ordinal-Scales.md#categorical-colors
     
