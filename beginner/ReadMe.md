@@ -22,6 +22,28 @@ Beginner of d3 and JS
   
   ![Animated Line Chart](https://github.com/hanhanwu/Hanhan_d3/blob/master/beginner/animated_line_chart.gif)
   
+
+* Animated Bar Chart: https://github.com/hanhanwu/Hanhan_d3/blob/master/beginner/animated_bar_chart.html
+  * Again! Let's use Baby Emmanuel's data to create a static bar chart first. It's about most frequent word count (percentage), although the data makes me wonder what kind of books he was using to extract so many names :)
+  
+  ![Tableau static bar chart](https://github.com/hanhanwu/Hanhan_d3/blob/master/beginner/Screen%20Shot%202017-09-07%20at%2010.57.01%20PM.png)
+  
+  * Now let's create a static bar chart using d3 first
+    * Static bar chart code: https://github.com/hanhanwu/Hanhan_d3/blob/master/beginner/static_bar_chart.html
+    
+    ![sattic bar chart](https://github.com/hanhanwu/Hanhan_d3/blob/master/beginner/Screen%20Shot%202017-09-07%20at%2011.01.26%20PM.png)
+    
+  * Animated bar chart
+  
+  ![Animated bar chart](https://github.com/hanhanwu/Hanhan_d3/blob/master/beginner/animated_bar_chart.gif)
+  
+  * Required code files:
+    * main.css: https://github.com/hanhanwu/Hanhan_d3/blob/master/beginner/main.css
+    * d3.min.js: https://github.com/hanhanwu/Hanhan_d3/blob/master/beginner/d3.min.js
+    * word.tsv: https://github.com/hanhanwu/Hanhan_d3/blob/master/beginner/data.tsv
+    * Animated bar chart html: https://github.com/hanhanwu/Hanhan_d3/blob/master/beginner/animated_bar_chart.html
+    * Static bar chart html: https://github.com/hanhanwu/Hanhan_d3/blob/master/beginner/static_bar_chart.html
+  
   
   [1]:https://github.com/hanhanwu/Hanhan_d3/blob/master/README.md
     
