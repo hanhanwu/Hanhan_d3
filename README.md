@@ -18,7 +18,7 @@ Time to practice more in d3 and Javascript. Somtimes, you still need to write Ja
   * BTW, I don't like Sublime Text, I tried 1 hour, guidance on its manual never worked for me.
 * But!! When you are loading local data, you may only get this error, "Cross origin requests are only supported for HTTP". The solution is to start your local server and run the website
   * `cd` to the directory where you are writing your .html page
-  * Python2.*: type `python -m SimpleHTTPServer` in your terminal
+  * Python2.*: type `python -m SimpleHTTPServer 8000` in your terminal
   * Python3.*: type `python -m http.server` in your terminal
   * Then just go to http://0.0.0.0:8000/ to open your .html page
 
