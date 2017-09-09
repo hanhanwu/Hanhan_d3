@@ -44,6 +44,8 @@ RESOURCES
 * Jaw drop D3: https://www.analyticsvidhya.com/blog/2017/08/visualizations-with-d3-js/?utm_source=feedburner&utm_medium=email&utm_campaign=Feed%3A+AnalyticsVidhya+%28Analytics+Vidhya%29
   * Jaw didn't drop, but it's am amazing tutorial
   * .tsv is a tab seperated data file
+  * Author's code: https://github.com/hanhanwu/d3js
+
 
 *************************************************************************************************
 
